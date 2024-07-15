@@ -1,0 +1,50 @@
+# Dependency directories
+node_modules/
+packages/*/node_modules/
+packages//packages//node_modules/
+
+# Build artifacts
+build/
+dist/
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE or editor specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore generated favicon file (if not needed in repo)
+frontend/public/favicon.ico
+
+# Ignore npm lock files (keep these if sharing project)
+backend/package-lock.json
+frontend/package-lock.json
+
+# Ignore database backups or migrations
+database/backups/
+database/migrations/
+
+# Ignore test coverage directory
+coverage/
+
+# Ignore Docker related files
+docker-compose.yml
+Dockerfile
+
+# Ignore any sensitive or private information
+secrets.json
+config.yaml
